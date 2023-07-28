@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 56px;
+    margin-top: 52px;
+}
+
+#titulo_superior{
+    margin-left: 172px;
+    margin-top: 75px;
+}
+
+#texto_superior{
+    margin-left: 172px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+#menu_superior{
+    background-image: url(imagens/backgroundsuperior.svg);
+    color: white;
+}
+
+#menu_informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.icone{
+    padding: 25px;
+    margin: 50px 0px 50px 100px
+}
+
+.texto_informativo{
+    display: flex;
+    align-items:center;
+}
+
+#titulo_video{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#menu_video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#menu_carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo_carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.card{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.seta{
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#div_carrossel{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#seta_esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo_formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    Width: 300px;
+    Height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    Width: 250px;
+    Height: 40px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3798c2;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #046792;
+    transition-duration: 0.5s;
+}
+
+
